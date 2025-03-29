@@ -5,5 +5,4 @@ workflows:
   build:
     jobs:
       - cypress/run:
-          install-browers: true
-          cypress-command: 'npm test'
+          cypress-command: 'npm cypress run'
